@@ -28,5 +28,5 @@ for i in range(len(get_table_data)):
         if key == "India":
             print(key,value)
             print('HEY,MESSAGE HAS BEEN SENT!')
-            client = Client('AC05649b9ed3ed42bbf4962a51c08df923', '073aef34c5d4d174182745551d40831b')
-            client.messages.create(to = '+918210467848', from_ = '+12098854949', body = 'Updated Covid cases in India:, '+value+' link for more: '+URL)
+            client = Client('AC05649b9ed3ebbf4962a51c08df923', '073aef34c5d4d12745551d40831b')
+            client.messages.create(to = '+918890467848', from_ = '+12098054949', body = 'Updated Covid cases in India:, '+value+' link for more: '+URL)
